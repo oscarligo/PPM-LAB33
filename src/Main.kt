@@ -3,7 +3,7 @@
 fun main() {
 
 
-    // 7. Extension Function para calcular el precio con descuento de un alimento
+    // 7. Función de extensión para calcular el precio con descuento de un alimento
     fun Food.discountedPrice(): Float {
         return this.price * 0.70f
     }

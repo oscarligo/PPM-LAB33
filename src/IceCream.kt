@@ -1,3 +1,4 @@
+// 4. Clase IceCream que implementa la interfaz Dessert y hereda de Food
 class IceCream(name: String, price: Float ): Food(name, price), Dessert {
 
     override fun cook(): String {

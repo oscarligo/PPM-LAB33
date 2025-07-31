@@ -1,3 +1,4 @@
+// 2. subclase de Food Burger que sobreescribe la función cook()
 class Burger(name: String, price: Float): Food(name, price)
 
 {

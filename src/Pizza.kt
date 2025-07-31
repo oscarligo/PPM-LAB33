@@ -1,3 +1,5 @@
+// 2. subclase de Food Pizza que sobreescribe la función cook()
+
 class Pizza(name:String, price: Float): Food(name, price) {
     override fun cook(): String {
         return "Cómo hornea una pizza: " +
