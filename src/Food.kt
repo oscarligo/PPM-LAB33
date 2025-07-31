@@ -1,7 +1,4 @@
-abstract class food (
-    val eat: Int,
-    val price: Float
-) {
-
-    abstract fun cook(): String = "Cooking food with price $price and eat $eat"
+abstract  class Food (val name: String, val price: Float)
+{
+     abstract fun cook(): String
 }

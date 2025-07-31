@@ -1,2 +1,5 @@
-class Drink {
+abstract class Drink(name:String, price:Float): Food(name,price) {
+
+    abstract fun pour(): String
+
 }
